@@ -1,6 +1,8 @@
 var express = require('express');
 var app = express();
 var request = require('request');
+var PORT = process.env.PORT || 3000
+
 
 app.set("view engine","ejs");
 app.use(express.static("public"));
@@ -22,6 +24,6 @@ app.get("/results", function (req, res) {
     })
 })
 
-app.listen(process.env.PORT, function () {
+app.listen(PORT, function () {
     console.log("Movie berjalan!");
 })
