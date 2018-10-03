@@ -5,9 +5,9 @@ API Movie sederhana dengan menggunakan NodeJS
 
 ## Menjalankan Aplikasi
 ```
-npm install
+-npm install
 node app.js
-//jika punya package nodemon
+-//jika punya package nodemon
 nodemon app.js
 ```
 
