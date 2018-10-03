@@ -1,9 +1,14 @@
 # API Movie Node
 
-:movie: jadwal adzan sekitaran malang , sekalian belajar scrapping
+:movie_camera: :stars:
+API Movie sederhana dengan menggunakan NodeJS
 
-
-## Run Project 
+## Menjalankan Aplikasi
 ```
 npm install
-npm start
+node app.js
+//jika punya package nodemon
+nodemon app.js
+```
+
+
