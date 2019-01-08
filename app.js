@@ -19,7 +19,7 @@ app.get("/results", function (req, res) {
             var parsedData = JSON.parse(body);
             res.render("result",{parsedData: parsedData});
         } else {
-            res.send("Something Wrong");
+            res.send("Something is Wrong");
         }
     })
 })
